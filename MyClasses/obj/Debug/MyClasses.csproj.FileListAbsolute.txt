@@ -1,0 +1,5 @@
+C:\Users\USERS\source\repos\FirstTest\MyClasses\bin\Debug\MyClasses.dll
+C:\Users\USERS\source\repos\FirstTest\MyClasses\bin\Debug\MyClasses.pdb
+C:\Users\USERS\source\repos\FirstTest\MyClasses\obj\Debug\MyClasses.csprojAssemblyReference.cache
+C:\Users\USERS\source\repos\FirstTest\MyClasses\obj\Debug\MyClasses.dll
+C:\Users\USERS\source\repos\FirstTest\MyClasses\obj\Debug\MyClasses.pdb
