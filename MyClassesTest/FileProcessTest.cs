@@ -43,7 +43,7 @@ namespace MyClassesTest
         }
 
         #endregion
-        //Exemples of bookmarks
+        //Exemples of Decorators
         [TestMethod]
         [Description("Check if a file does Exists ")]
         [Owner("Leonardo")]
@@ -57,6 +57,53 @@ namespace MyClassesTest
             TestContext.WriteLine($"Testing File {goodFileName}");
             fromCall = fp.FileExists(goodFileName);
             
+            Assert.IsTrue(fromCall);
+        }
+        [TestMethod]
+        [DataSource("System.Data.SqlClient", @"Data Source=DESKTOP-GG8D5OV\SQLEXPRESS;Initial Catalog=TesteUnitario;Integrated Security=True", 
+            "FileProcessTest", DataAccessMethod.Sequential)]
+        public void FileDoesExistsFromDb()
+        {
+            FileProcess fp = new FileProcess();
+            string file;
+
+            bool expectedvalue;
+            bool causesException;
+            bool fromCall;
+
+            file =  TestContext.DataRow["FileName"].ToString();
+            expectedvalue = Convert.ToBoolean(TestContext.DataRow["ExpectedValue"]);
+            causesException = Convert.ToBoolean(TestContext.DataRow["CausesException"]);
+            
+
+            try
+            {
+                fromCall = fp.FileExists(file);
+                Assert.AreEqual(expectedvalue, fromCall,
+                    $"File:  {file} has failed. method FileDoesExistsFromDb");
+            }
+            catch (ArgumentException)
+            {
+
+                Assert.IsTrue(causesException);
+            }
+
+           
+        }
+
+        private const string FileName = @"FileToDeploy.txt";
+        [TestMethod]
+        [DeploymentItem(FileName)]
+        public void FileNameDoesExistsUsingDeploymentItem()
+        {
+            FileProcess fp = new FileProcess();
+            string filename;
+            bool fromCall;
+
+            filename = $@"{TestContext.DeploymentDirectory}\{FileName}";
+            TestContext.WriteLine($"Checking File {filename}");
+            fromCall = fp.FileExists(filename);
+
             Assert.IsTrue(fromCall);
         }
 

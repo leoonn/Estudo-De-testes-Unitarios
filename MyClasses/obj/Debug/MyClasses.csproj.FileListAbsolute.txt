@@ -3,3 +3,7 @@ C:\Users\USERS\source\repos\FirstTest\MyClasses\bin\Debug\MyClasses.pdb
 C:\Users\USERS\source\repos\FirstTest\MyClasses\obj\Debug\MyClasses.csprojAssemblyReference.cache
 C:\Users\USERS\source\repos\FirstTest\MyClasses\obj\Debug\MyClasses.dll
 C:\Users\USERS\source\repos\FirstTest\MyClasses\obj\Debug\MyClasses.pdb
+C:\Users\USERS\source\repos\FirstTest\MyClasses\bin\Debug\Microsoft.VisualStudio.TestPlatform.MSTest.TestAdapter.dll
+C:\Users\USERS\source\repos\FirstTest\MyClasses\bin\Debug\Microsoft.VisualStudio.TestPlatform.MSTestAdapter.PlatformServices.Interface.dll
+C:\Users\USERS\source\repos\FirstTest\MyClasses\bin\Debug\Microsoft.VisualStudio.TestPlatform.MSTestAdapter.PlatformServices.dll
+C:\Users\USERS\source\repos\FirstTest\MyClasses\bin\Debug\Microsoft.TestPlatform.AdapterUtilities.dll

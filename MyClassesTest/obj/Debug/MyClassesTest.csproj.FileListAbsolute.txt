@@ -1,6 +1,3 @@
-C:\Users\USERS\source\repos\FirstTest\MyClassesTest\bin\Debug\Microsoft.VisualStudio.TestPlatform.MSTest.TestAdapter.dll
-C:\Users\USERS\source\repos\FirstTest\MyClassesTest\bin\Debug\Microsoft.VisualStudio.TestPlatform.MSTestAdapter.PlatformServices.Interface.dll
-C:\Users\USERS\source\repos\FirstTest\MyClassesTest\bin\Debug\Microsoft.VisualStudio.TestPlatform.MSTestAdapter.PlatformServices.dll
 C:\Users\USERS\source\repos\FirstTest\MyClassesTest\bin\Debug\MyClassesTest.dll
 C:\Users\USERS\source\repos\FirstTest\MyClassesTest\bin\Debug\MyClassesTest.pdb
 C:\Users\USERS\source\repos\FirstTest\MyClassesTest\bin\Debug\Microsoft.VisualStudio.TestPlatform.TestFramework.dll
@@ -14,3 +11,8 @@ C:\Users\USERS\source\repos\FirstTest\MyClassesTest\obj\Debug\MyClassesTest.pdb
 C:\Users\USERS\source\repos\FirstTest\MyClassesTest\bin\Debug\MyClasses.dll
 C:\Users\USERS\source\repos\FirstTest\MyClassesTest\bin\Debug\MyClasses.pdb
 C:\Users\USERS\source\repos\FirstTest\MyClassesTest\bin\Debug\MyClassesTest.dll.config
+C:\Users\USERS\source\repos\FirstTest\MyClassesTest\bin\Debug\FileToDeploy.txt
+C:\Users\USERS\source\repos\FirstTest\MyClassesTest\bin\Debug\Microsoft.VisualStudio.TestPlatform.MSTest.TestAdapter.dll
+C:\Users\USERS\source\repos\FirstTest\MyClassesTest\bin\Debug\Microsoft.VisualStudio.TestPlatform.MSTestAdapter.PlatformServices.Interface.dll
+C:\Users\USERS\source\repos\FirstTest\MyClassesTest\bin\Debug\Microsoft.VisualStudio.TestPlatform.MSTestAdapter.PlatformServices.dll
+C:\Users\USERS\source\repos\FirstTest\MyClassesTest\bin\Debug\Microsoft.TestPlatform.AdapterUtilities.dll
